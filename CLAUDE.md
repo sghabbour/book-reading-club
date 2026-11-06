@@ -18,7 +18,7 @@ infrastructure/ # AWS CDK (TypeScript)
 
 - Files are named in kebab-case
 - Clean abstract absolute path aliases for import statements
-- Imports are ordered alphabitically
+- Imports are ordered alphabetically
 - Unused imports should be deleted
 - Use 2 space indentation
 
@@ -30,7 +30,7 @@ infrastructure/ # AWS CDK (TypeScript)
 - Use the same branch types words as commit prefix.
 - Keep one issue per branch and one PR per branch. The PR description includes Closes #12.
 - changes should be minimal on each commit.
-- changes that are not relevant to the story/epic should not be commited or merged.
+- changes that are not relevant to the story/epic should not be committed or merged.
 - commits that are not correctly describing its changes should not be pushed/merged
 
 ## Workflow rules
