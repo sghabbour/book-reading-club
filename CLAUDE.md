@@ -2,7 +2,7 @@
 
 ## Overview
 
-Monorepo managed with npm workspaces.
+Please read if you need more info: @README.md
 
 ```
 frontend/       # React + TypeScript (Vite)
@@ -17,8 +17,7 @@ infrastructure/ # AWS CDK (TypeScript)
 ## Code Style
 
 - Files are named in kebab-case
-- Clean abstract absolute path aliases for import statements
-- Imports are ordered alphabetically
+- Imports are ordered alphabetically (Preffered but not enforced)
 - Unused imports should be deleted
 - Use 2 space indentation
 
@@ -28,10 +27,10 @@ infrastructure/ # AWS CDK (TypeScript)
 - Feature branches are branched from `main`
 - Branches types: feat, fix, chore, docs, test, refactor.
 - Use the same branch types words as commit prefix.
-- Keep one issue per branch and one PR per branch. The PR description includes Closes #12.
+- Keep one issue per branch.
 - changes should be minimal on each commit.
-- changes that are not relevant to the story/epic should not be committed or merged.
-- commits that are not correctly describing its changes should not be pushed/merged
+- changes should be relevant to story/epic of the respective branch.
+- commits should correctly describe the changes to be pushed/merged
 
 ## Workflow rules
 

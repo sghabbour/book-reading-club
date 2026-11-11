@@ -1,4 +1,3 @@
-# Book Reading Club
 
 Monorepo managed with npm workspaces.
 
@@ -20,6 +19,7 @@ npm install
 
 ```sh
 npm run dev:frontend   # http://localhost:5173
+npm run dev:phone      # same, plus a network URL to open on a phone on the same Wi-Fi
 ```
 
 ### Backend
