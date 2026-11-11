@@ -23,9 +23,9 @@ infrastructure/ # AWS CDK (TypeScript)
 
 ## Branch Conventions
 
-- Name format: <type>/<issue-number>-<short-slug>, for example feat/12-join-club or fix/27-login-redirect.
+- Name format: <type>/us-<two-digit-issue-number>-<short-slug>, for example feature/us-01-app-foundation or fix/us-27-login-redirect.
 - Feature branches are branched from `main`
-- Branches types: feat, fix, chore, docs, test, refactor.
+- Branches types: feature, fix, chore, docs, test, refactor.
 - Use the same branch types words as commit prefix.
 - Keep one issue per branch.
 - changes should be minimal on each commit.
