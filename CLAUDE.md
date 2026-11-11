@@ -17,7 +17,7 @@ infrastructure/ # AWS CDK (TypeScript)
 ## Code Style
 
 - Files are named in kebab-case
-- Imports are ordered alphabetically (Preffered but not enforced)
+- Imports are ordered alphabetically (Preferred but not enforced)
 - Unused imports should be deleted
 - Use 2 space indentation
 
